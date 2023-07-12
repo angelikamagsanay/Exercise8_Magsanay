@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAMPLE1</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        #header{
+            width: 100%;
+            background-image: url(img/class.jpg);
+            height: 110vh;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: auto;
+            text-align: center;
+        }
+        #header h1{
+            color: rgb(240, 173, 73);
+            font-family: "Century Gothic";
+            text-transform: uppercase;
+            font-size: 20px;
+            transition: 0.5s;
+            letter-spacing: 10px;
+        }
+        #header button{
+            background: none;
+            border: none;
+            font-family: "Century Gothic";
+            color:rgb(31, 28, 28);
+            border: solid rgb(29, 27, 27) 2px;
+            padding: 10px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        #header button:hover{
+            background: white;
+            color:coral;
+            transition: 0.5s;
+        }
+
+        #content h1, #content p{
+            font-family: "Century Gothic";
+            color:rgb(20, 94, 241);
+            margin: 0;    
+        }
+        #content{
+            width: 1080px;
+            margin: auto;
+            padding-top: 20px;
+        }
+        #content-container{
+            background:rgb(236, 62, 62)
+        }
+        .row{
+            display: inline-block;
+        }
+        .element-1{
+            width: 50%;
+            float: left;
+        }
+        .element-2{
+            width: 50%;
+            float: right;
+        }
+        .element-2-content{
+            padding: 20px;
+        }
+        .element-4{
+            width:25%;
+            float: left;
+        }
+        .element-4-content{
+            background-color:bisque;
+            margin: 5px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .content-4-image{
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <br><br><br><br><br><br><br><br><br><br><br>
+        <img src="img/anya2.png" width="200">
+        <h1>PEANUT</h1>
+        
+
+        <button>
+            Learn more
+        </button>
+    </div>
+    <div id="content-container">
+        <div id="content">
+            <h1>Content</h1>
+            <br><br>
+            <div class="row">
+                <div class="element-1">
+                    <img src="img/kimchi.jpg" alt="" width="100%">
+                </div>
+                <div class="element-2">
+                    <div class="element-2-content">
+
+                    
+                    <h1>Content Item #1</h1>
+                    <p>kimchi</p>
+                    <button>Learn more</button>
+                    </div>
+                </div>
+                <div style="clear:both;"></div>
+                <br>
+                <h1>Collections</h1>
+                <br>
+                <div class="element-4">
+                    <div class="element-4-content">
+                        <img src="img/fishcake.jpg" alt="" width="100%" class="content-4-image">
+                    </div>  
+                </div>     
+                <div class="element-4">
+                    <div class="element-4-content">
+                        <img src="img/fishcake.jpg" alt="" width="100%" class="content-4-image">
+                    </div> 
+                </div>    
+                <div class="element-4">
+                    <div class="element-4-content">
+                        <img src="img/fishcake.jpg" alt="" width="100%" class="content-4-image">
+                    </div> 
+                </div> 
+                <div class="element-4">
+                    <div class="element-4-content">
+                        <img src="img/fishcake.jpg" alt="" width="100%" class="content-4-image">
+                           
+                    </div> 
+                </div>
+                <div style="clear:both;"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
